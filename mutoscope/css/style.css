@@ -1,0 +1,156 @@
+/* template by @clkcrompton */
+
+/*To find out what each of the selectors, properties, and values below do, 
+try changing the values, saving your css, saving your html page, and refreshing
+your browser*/
+
+body {	
+	background-color: white;
+    background-position: center;  
+    background-size: cover;
+    background-repeat: repeat;
+	padding: 20px;
+    
+    
+}
+
+div {
+    height:120px;
+    width:120px;
+    display: inline-block;
+}
+
+a {
+    color: antiquewhite;
+}
+a:hover {
+    color: rosybrown;
+}
+
+h1 {
+    margin-left: 50px;
+    margin-right: 50px;
+	font-family: Courier, monospace;
+  	font-size: 45px;
+	text-align: center;
+	background-image: url(../images/bg.jpg);
+    border: 3px solid saddlebrown;
+    background-size: cover;
+    color: #673713;  
+    padding: 5px;
+}
+
+h2 {
+	font-family: Courier;
+    font-size: 30px;
+    color: #673713;
+    
+}
+
+h3 {
+	font-family: Courier;
+    font-size: 25px;
+    color: #6E513C;
+    
+}
+
+p {	
+	font: Times;
+	font-size:18px;
+}
+
+em{
+    font: courier;
+    font-size: 12px;
+    text-align: center;
+}
+
+img {	
+	/* Add the css to control your images here */
+	margin: 10px;
+    height: auto;
+    
+}
+
+article{
+    background-image: url(../images/bg.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5px;
+    padding-left: 10px;
+     border: 3px solid saddlebrown;
+    padding-bottom: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+/* Sets the highlight colour in most browsers */
+::selection {
+  background: #6E513C;
+} 
+/* Sets the highlight colour in Firefox */
+::-moz-selection {
+  	background: #6E513C;
+}
+
+
+
+
+ul{
+    width: 80%;
+    margin: auto;
+    list-style-type: none;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    overflow: hidden;  
+    padding-left: 55px;
+    
+}
+
+li {
+    font-family: Courier;
+    background-color: #6E513C;
+    float: left; 
+    border: 1px solid antiquewhite; 
+    
+}
+
+li a {
+    display: block;
+    color: floralwhite;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+
+/* Add the rules for elements with @class and @id attributes below */
+
+.footer {   
+   background-color: #6E513C; 
+    font-family: courier;
+    font-size: 15px;
+   width: 100%;
+    height: auto;
+   margin-top: 20px;
+    text-align: center;
+    color: antiquewhite;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.right {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    padding: 10px;
+}
+
+.left {
+    position: absolute;
+    left: 0px;
+    width: 300px;
+    padding: 10px;
+}
