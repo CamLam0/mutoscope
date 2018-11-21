@@ -5,13 +5,13 @@ try changing the values, saving your css, saving your html page, and refreshing
 your browser*/
 
 body {	
-	background-color: white;
+	
+    background-image: url(../images/bg.jpg); 
     background-position: center;  
-    background-size: cover;
+    background-size: auto;
     background-repeat: repeat;
 	padding: 20px;
-    
-    
+
 }
 
 div {
@@ -33,7 +33,7 @@ h1 {
 	font-family: Courier, monospace;
   	font-size: 45px;
 	text-align: center;
-	background-image: url(../images/bg.jpg);
+    background-color: white;
     border: 3px solid saddlebrown;
     background-size: cover;
     color: #673713;  
@@ -69,17 +69,17 @@ img {
 	/* Add the css to control your images here */
 	margin: 10px;
     height: auto;
+    position: sticky; 
     
 }
 
 article{
-    background-image: url(../images/bg.jpg); 
+    background-color: white;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 5px;
     padding-left: 10px;
      border: 3px solid saddlebrown;
-    padding-bottom: 200px;
     margin-left: 50px;
     margin-right: 50px;
     
@@ -87,11 +87,11 @@ article{
 
 /* Sets the highlight colour in most browsers */
 ::selection {
-  background: #6E513C;
+  background: #E1D4C3;
 } 
 /* Sets the highlight colour in Firefox */
 ::-moz-selection {
-  	background: #6E513C;
+  	background: #E1D4C3;
 }
 
 
@@ -134,6 +134,8 @@ li a {
    width: 100%;
     height: auto;
    margin-top: 20px;
+    margin-bottom: -10px;
+    margin-right: -5px;
     text-align: center;
     color: antiquewhite;
     padding-top: 15px;
