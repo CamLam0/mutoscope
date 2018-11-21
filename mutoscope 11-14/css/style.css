@@ -1,0 +1,150 @@
+/* template by @clkcrompton */
+
+/*To find out what each of the selectors, properties, and values below do, 
+try changing the values, saving your css, saving your html page, and refreshing
+your browser*/
+
+body {	
+	background-color: white;
+    background-position: center;  
+    background-size: cover;
+    background-repeat: repeat;
+	padding: 20px;
+    
+    
+}
+
+div {
+    height:120px;
+    width:120px;
+    display: inline-block;
+}
+
+a {
+    color: antiquewhite;
+}
+a:hover {
+    color: rosybrown;
+}
+
+h1 {
+	font-family: Courier, monospace;
+  	font-size: 45px;
+	padding: 10px;
+	text-align: center;
+	background-image: url(../images/bg.jpg);
+    border: 3px solid saddlebrown;
+    background-size: cover;
+    color: #673713;   
+}
+
+h2 {
+	font-family: Courier;
+    font-size: 30px;
+    color: #673713;
+    
+}
+
+h3 {
+	font-family: Courier;
+    font-size: 25px;
+    color: saddlebrown;
+    
+}
+
+p {	
+	font: Times;
+	font-size:18px;
+}
+
+img {	
+	/* Add the css to control your images here */
+	float: left;
+	padding-right: 10px;
+    padding-left: 10px;
+    width: 200px;
+    height: auto;
+    
+}
+
+article{
+    background-image: url(../images/bg.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5px;
+    padding-left: 10px;
+     border: 3px solid saddlebrown;
+    padding-bottom: 200px;
+    
+}
+
+/* Sets the highlight colour in most browsers */
+::selection {
+  background: #6E513C;
+} 
+/* Sets the highlight colour in Firefox */
+::-moz-selection {
+  	background: #6E513C;
+}
+
+[type=button] {
+	float: right;
+	height: 30px;
+	width: 90px;
+	font-family: sans-serif;
+	font-size: 15px;
+	text-align: center;
+	background: #FF9900;
+	border-radius: 7px;
+	text-decoration: none;
+	margin-bottom: 80px;
+}
+
+div#a {
+    background-color:#007A7A;
+}
+
+div#b {
+    background-color:#002EB8;
+}
+
+div#c {
+    background-color:#A31947;
+}
+
+div#d {
+    background-color:#E62E00;
+}
+
+
+
+ul{
+    list-style-type: none;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    overflow: hidden;  
+    
+}
+
+li {
+    font-family: Courier;
+    background-color: #6E513C;
+    float: left; 
+    border: 1px solid antiquewhite;
+    padding-left: 22px;
+    padding-right: 22px;
+    
+}
+
+li a {
+    display: block;
+    color: floralwhite;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+
+/* Add the rules for elements with @class and @id attributes below */
+
+
