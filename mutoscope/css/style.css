@@ -27,8 +27,8 @@ a:hover {
 }
 
 h1 {
-    margin-left: 50px;
-    margin-right: 50px;
+     margin-left: 10%;
+    margin-right: 10%;
 	font-family: Courier, monospace;
   	font-size: 45px;
 	text-align: center;
@@ -50,7 +50,16 @@ h3 {
 	font-family: Courier;
     font-size: 25px;
     color: #6E513C;
+    margin-bottom: -5px;
     
+}
+
+h4 {
+	font-family: Courier;
+    font-style: bold;
+    font-size: 19px;
+    color: #673713;
+    margin-bottom: -15px;
 }
 
 p {	
@@ -67,7 +76,6 @@ em{
 img {	
 	/* Add the css to control your images here */
 	margin: 10px;
-    height: auto;
     position: sticky; 
     
 }
@@ -77,8 +85,8 @@ article{
     padding: 5px;
     padding-left: 10px;
     border: 3px solid saddlebrown;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
     
 }
 
@@ -100,7 +108,18 @@ iframe{
 }
 
 
-li {
+/* Rules for elements with @class and @id attributes below */
+nav ul {
+    width: 80%;
+    margin: auto;
+    list-style-type: none;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    overflow: hidden;  
+    padding-left: 55px;
+}
+
+nav li {
     font-family: Courier;
     background-color: #6E513C;
     float: left; 
@@ -113,19 +132,13 @@ li a {
     color: floralwhite;
     text-align: center;
     padding: 10px;
-    text-decoration: none;
-    
+    text-decoration: none; 
 }
 
-/* Rules for elements with @class and @id attributes below */
-nav ul {
-    width: 80%;
-    margin: auto;
-    list-style-type: none;
-    padding-bottom: 30px;
-    padding-left: 0px;
-    overflow: hidden;  
-    padding-left: 55px;
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer {   
@@ -145,4 +158,9 @@ nav ul {
 
 .extend {
     padding-bottom: 20%;
+}
+
+.timeline{
+    font-family: courier;
+    color: #6E513C;
 }
