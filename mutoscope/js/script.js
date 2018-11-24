@@ -6,9 +6,9 @@
 // alert("Congrats, the path from your .html to .js file is correct");
 
 
-$(document).ready(function() {
-	$('button').click(function() {
-		$("div").slideUp(3000);	
+//$(document).ready(function() {
+	//$('button').click(function() {
+		//$("div").slideUp(3000);	
 
 
    	 });

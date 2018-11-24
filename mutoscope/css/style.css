@@ -76,7 +76,7 @@ article{
     background-color: white;
     padding: 5px;
     padding-left: 10px;
-     border: 3px solid saddlebrown;
+    border: 3px solid saddlebrown;
     margin-left: 50px;
     margin-right: 50px;
     
@@ -91,7 +91,7 @@ article{
   	background: #E1D4C3;
 }
 
-
+/* centers the embedded video in moment.html */
 iframe{
     display: block;
     margin-left: auto;
@@ -99,16 +99,6 @@ iframe{
     width: 40%;
 }
 
-ul{
-    width: 80%;
-    margin: auto;
-    list-style-type: none;
-    padding-bottom: 30px;
-    padding-left: 0px;
-    overflow: hidden;  
-    padding-left: 55px;
-    
-}
 
 li {
     font-family: Courier;
@@ -127,7 +117,16 @@ li a {
     
 }
 
-/* Add the rules for elements with @class and @id attributes below */
+/* Rules for elements with @class and @id attributes below */
+nav ul {
+    width: 80%;
+    margin: auto;
+    list-style-type: none;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    overflow: hidden;  
+    padding-left: 55px;
+}
 
 .footer {   
    background-color: #6E513C; 
@@ -142,7 +141,6 @@ li a {
     color: antiquewhite;
     padding-top: 15px;
     padding-bottom: 15px;
-
 }
 
 .extend {
