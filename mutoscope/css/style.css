@@ -5,16 +5,17 @@ try changing the values, saving your css, saving your html page, and refreshing
 your browser*/
 
 body {	
-	font-family: "Courier", "Times", monospace, serif;
+	
     background-image: url(../images/bg.jpg);  
     background-size: auto;
     background-repeat: repeat;
+	padding: 20px;
 
 }
 
 div {
     height:120px;
-    width:120px;article
+    width:120px;
     display: inline-block;
 }
 
@@ -24,12 +25,11 @@ a {
 a:hover {
     color: rosybrown;
 }
-/* position styles */
-.alignright {float:right;margin-right: .2em;}
-.alignleft {float:left;margin-right: .2em;}
+
 h1 {
      margin-left: 10%;
     margin-right: 10%;
+	font-family: Courier, monospace;
   	font-size: 45px;
 	text-align: center;
     background-color: white;
@@ -40,12 +40,14 @@ h1 {
 }
 
 h2 {
+	font-family: Courier;
     font-size: 30px;
     color: #673713;
     
 }
 
 h3 {
+	font-family: Courier;
     font-size: 25px;
     color: #6E513C;
     margin-bottom: -5px;
@@ -53,6 +55,7 @@ h3 {
 }
 
 h4 {
+	font-family: Courier;
     font-style: bold;
     font-size: 19px;
     color: #673713;
@@ -62,10 +65,10 @@ h4 {
 p {	
 	font: Times;
 	font-size:18px;
-	margin-bottom: .2em;
 }
 
 em{
+    font: courier;
     font-size: 12px;
     text-align: center;
 }
@@ -77,11 +80,17 @@ img {
     
 }
 
+ol {
+    color: black;
+}
+
 article{
     background-color: white;
-    padding: 2%;
+    padding: 5px;
+    padding-left: 10px;
     border: 3px solid saddlebrown;
-    margin: 0 10% 5% 10%;
+    margin-left: 10%;
+    margin-right: 10%;
     
 }
 
@@ -96,22 +105,26 @@ article{
 
 /* centers the embedded video in moment.html */
 iframe{
-	display: block;
-	margin: 0 auto;
-	clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
 
 
 /* Rules for elements with @class and @id attributes below */
 nav ul {
-    width: 62em;
-    margin: 0 auto;
-    margin-bottom: 3em;
+    width: 80%;
+    margin: auto;
     list-style-type: none;
-    overflow: hidden;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    overflow: hidden;  
+    padding-left: 55px;
 }
 
 nav li {
+    font-family: Courier;
     background-color: #6E513C;
     float: left; 
     border: 1px solid antiquewhite; 
@@ -132,9 +145,9 @@ li a {
     margin-right: auto;
 }
 
-footer { 
-	position:fixed; bottom:5px; right:5px;
+.footer {   
    background-color: #6E513C; 
+    font-family: courier;
     font-size: 15px;
    width: 100%;
     height: auto;
@@ -145,7 +158,11 @@ footer {
     color: antiquewhite;
     padding-top: 15px;
     padding-bottom: 15px;
-	
+}
+
+.ref {
+    color: black;
+    text-align: left;
 }
 
 .extend {
@@ -153,6 +170,7 @@ footer {
 }
 
 .timeline{
+    font-family: courier;
     color: #6E513C;
 }
 
